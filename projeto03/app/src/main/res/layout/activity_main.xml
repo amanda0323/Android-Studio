@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="263dp"
+        android:layout_height="170dp"
+        android:layout_marginBottom="576dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="215dp"
+        tools:srcCompat="@drawable/SIM" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="315dp"
+        android:layout_height="26dp"
+        android:text="Objetivos Dentro de uma Empresa"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="237dp"
+        android:layout_height="17dp"
+        android:text="telefone para contato: (13) 9963785693"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="149dp"
+        android:layout_height="21dp"
+        android:text="email: xxxxx@gmail.com"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro-SP"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="217dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Amanda Komatsu"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="281dp"
+        android:layout_height="86dp"
+        android:text="Tenho como objetivo entrar no mercado de trabalho, dar o melhor de mim como profissional, seja qual área for, adquirir experiências novas e que me agreguem crescimentp profissional e pessoal."
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Formação Acadêmica"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TÉCNICO EM ESTÉTICA (cursando) | 15/04/24 - 22/09/25 | SENAC REGISTRO ( possiblidade de mudança de turno)."
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="345dp"
+        android:layout_height="21dp"
+        android:text="TÉCNICO EM INFORMÁTICA | 2022 - 2023 | REGISTRO."
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="355dp"
+        android:layout_height="35dp"
+        android:text="ENSINO MÉDIO INTEGRAL | 2019 - 2021 | PEI DR. FÁBIO BARRETO."
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="283dp"
+        android:layout_height="25dp"
+        android:text="Experiência de Trabalho"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="262dp"
+        android:layout_height="19dp"
+        android:text="Repositora de mercadoria e atendimento."
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="371dp"
+        android:layout_height="36dp"
+        android:text="Faço trabalhos voluntários como atendimento em barracas para eventos sociais promovidos pelo Bunkyo de Registro."
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Habilidades e Competências"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="547dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Criatividade"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="586dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facilidade de Aprendizagem"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="605dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarbalho em Equipe"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="625dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Colaboração"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="644dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comunicação"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="663dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Organização"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="682dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
